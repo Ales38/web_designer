@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Gilroy";
+  src: local("./fonts/Gilroy Bold"), local("Gilroy-Bold"), url("./fonts/Gilroy-Bold.woff2") format("woff2"), url("./fonts/Gilroy-Bold.woff") format("woff"), url("./fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("./fonts/Gilroy Medium"), local("Gilroy-Medium"), url("./fonts/Gilroy-Medium.woff2") format("woff2"), url("./fonts/Gilroy-Medium.woff") format("woff"), url("./fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body,
+html {
+  font-family: "Gilroy";
+  font-size: 18px;
+  color: #070707;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 34px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.nav {
+  border-bottom: 1px solid #828282;
+  padding: 0;
+}
+
+.nav__list {
+  margin-top: 35px;
+  margin-bottom: 31px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #828282;
+  font-weight: 700;
+}
+
+.nav__link:hover,
+.nav__link:active {
+  color: #070707;
+}
+
+.main__descrip {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.main__title {
+  margin: auto;
+  font-size: 47px;
+  font-weight: 700;
+  width: 123px;
+}
+
+.main__text {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.main__links {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.main__link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #828282;
+  font-weight: 700;
+}
+
+.main__link--active {
+  color: #000;
+}
+
+.main__link:first-child::after {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 2px;
+  margin-top: 5px;
+  background-color: #000;
+}
+
+.main__photo {
+  margin-bottom: 104px;
+}
+
+.main__image {
+  width: 100%;
+}
+
+.about {
+  background-color: #f6f6f6;
+  padding-bottom: 120px;
+}
+
+.about__title {
+  padding-top: 120px;
+}
+
+.about__subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.skills__title {
+  padding-top: 91px;
+  margin-bottom: 69px;
+}
+
+.skills__subtitle {
+  font-style: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 83px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.cards__imag e {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 23px;
+}
+
+.cards__title {
+  width: 90px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-style: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-bottom: 41px;
+}
+
+.cards__star {
+  align-self: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */

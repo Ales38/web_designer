@@ -1,0 +1,43 @@
+.skills {
+    &__title {
+        padding-top: 91px;
+        margin-bottom: 69px;
+    }
+
+    &__subtitle {
+        font-style: 18px;
+        line-height: 22px;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 83px;
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    &__imag e {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 23px;
+
+    }
+
+    &__title {
+        width: 90px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 700;
+        font-style: 14px;
+        line-height: 17px;
+        color: #828282;
+        margin-bottom: 41px;
+    }
+
+    &__star {
+        align-self: flex-end;
+    }
+
+}
